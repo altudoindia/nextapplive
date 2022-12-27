@@ -1,15 +1,23 @@
-import React from 'react';
-import Head1 from './Head1';
-import Head2 from './Head2';
-import Head3 from './Head3';
+import React from 'react'
+import Navbar from './Navbar'
+import Utility from './Utility'
+
+import Container from './PageStructure/Container'
 
 const Header = () => {
   return (
-    <div className='row bg-success bg-opacity-50'>
-        <Head1/>
-        <Head2/>
-        <Head3/>
-    </div>
+    <>
+    <header>
+     <Container>
+      <div className='site-logo col-md-2'>
+        <img src="/site-logo.png" alt="Vercel Logo"  />   
+      </div>
+      <Navbar />
+      <Utility/>
+      </Container>
+      </header>
+    </>
+   
   )
 }
 

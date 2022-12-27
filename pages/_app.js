@@ -1,19 +1,17 @@
 import Layout from '../common/Layout';
-import '../styles/globals.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../styles/Global.scss'
+import '../styles/Header.scss'
+import  '../styles/Footer.scss'
+import '../styles/Navbar.scss'
 
 
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
 
 function MyApp({ Component, pageProps }) {
   console.log('pageProps', pageProps);
   return (
-      <Layout footerstatus={pageProps.footerstatus}>
-          <div >
-            <Component {...pageProps} />
-          </div>
+      <Layout >
+          <Component  {...pageProps} />
       </Layout>
     )
 }

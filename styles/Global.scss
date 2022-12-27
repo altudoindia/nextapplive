@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Solway:wght@300;400;500&display=swap');
+// font-family: 'Nerko One', cursive;
+// font-family: 'Solway', serif;
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Solway", serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 400;
+    background-color: #bbb;
+}
+img{
+    max-width: 100%;
+}
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+    h1 {
+        color: #084298;
+    }
+}
+
+
+.cardList{
+    .card-image{
+       img{
+        max-height: 200px;
+       }
+    }
+    .porduct-card {
+        border: 1px solid #41464b;
+        background: #fff;
+        min-height: 307px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+h1{
+    font-size: 4.5rem;
+    color: #084298;
+}
+h2{
+    font-size: 4rem;
+    color: #084298;
+}
+h3{
+    font-size: 3.5rem;
+    color: #084298;
+}
+h4{
+    font-size: 3rem;
+    color: #084298;
+}
+.component-title{
+    h1{
+        font-size: 4.5rem;
+        color: #084298;
+    }
+}
+.section-bg{
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius:10px ;
+    border: 1px solid rgb(155, 53, 53);
+    box-shadow: #084298;
+}
+.ragistration-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
